@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Nature_Is_Beautiful_rebalanced_1wsx10</identifier>
+    <version>0.1.3.1</version>
+    <dependencies>
+    	<li>HugsLib</li>
+    </dependencies>
+    <incompatibleWith>
+        <li>NatureisBeautifulv1.3[B19]</li>
+        <li>NatureisBeautifulv1.3[1.0]</li>
+    </incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+    </loadAfter>
+    <suggests>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri></manifestUri>
+    <downloadUri></downloadUri>
+</Manifest>
