@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- ========== From Plants_Wild_Arid.xml ========== -->
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Agave"]/statBases</xpath>
+        <value>
+          <Beauty>3</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_PincushionCactus"]/statBases</xpath>
+        <value>
+          <Beauty>1</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_SaguaroCactus"]/statBases</xpath>
+        <value>
+          <Beauty>3</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeDrago"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+
+
+<!-- ========== From Plants_Wild_General.xml ========== -->
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Grass"]/statBases</xpath>
+        <value>
+          <Beauty>3</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_TallGrass"]/statBases</xpath>
+        <value>
+          <Beauty>2</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Bush"]</xpath>
+        <value>
+	  		<statBases><Beauty>2</Beauty></statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Brambles"]/statBases</xpath>
+        <value><Beauty>2</Beauty></value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_HealrootWild"]</xpath>
+        <value>
+	  <statBases><Beauty>5</Beauty></statBases>
+        </value>
+    </Operation>
+
+<!-- ========== From Plants_Wild_Swamp.xml ========== -->
+
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/statBases</xpath>
+        <value>
+	  		<Beauty>2</Beauty>
+        </value>
+    </Operation>
+
+
+<!-- ========== From Plants_Wild_Temperate.xml ========== -->
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Moss"]/statBases</xpath>
+        <value>
+	  		<Beauty>2</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Berry"]/statBases</xpath>
+        <value>
+	  		<Beauty>2</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreePine"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+
+<!-- ========== From Plants_Wild_Tropical.xml ========== -->
+
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_ShrubLow"]/statBases</xpath>
+        <value>
+	  		<Beauty>2</Beauty>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Plant_Alocasia"]</xpath>
+        <value>
+	  		<statBases><Beauty>3</Beauty></statBases>
+        </value>
+    </Operation>
+
+
+
+
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_Clivia"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Plant_TreePalm"]/statBases/Beauty/text()</xpath>
+        <value>2</value>
+    </Operation>
+
+
+
+
+
+
+
+<!-- ========== From Terrain_Natural.xml ========== -->
+
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/TerrainDef[defName="Sand"]/statBases/Beauty/text()</xpath>
+        <value>0</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/TerrainDef[defName="SoftSand"]/statBases/Beauty/text()</xpath>
+        <value>0</value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/TerrainDef[defName="Ice"]/statBases/Beauty/text()</xpath>
+        <value>0</value>
+    </Operation>
+
+<!-- ========== From Terrain_Water.xml ========== -->
+
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WaterMovingChestDeep"]</xpath>
+        <value>
+	  <statBases><Beauty>1</Beauty></statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WaterShallow"]</xpath>
+        <value>
+	  <statBases><Beauty>1</Beauty></statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WaterOceanShallow"]</xpath>
+        <value>
+	  <statBases><Beauty>1</Beauty></statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="WaterMovingShallow"]</xpath>
+        <value>
+	  <statBases><Beauty>1</Beauty></statBases>
+        </value>
+    </Operation>
+
+
+<!-- ========== From Various_Stone.xml ========== -->
+
+
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="Marble"]/statBases/Beauty/text()</xpath>
+        <value>0</value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName ="SmoothedMarble"]/statBases/Beauty/text()</xpath>
+        <value>3</value>
+    </Operation>
+
+
+</Patch>
